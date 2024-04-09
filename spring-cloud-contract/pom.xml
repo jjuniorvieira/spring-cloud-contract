@@ -10,8 +10,13 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
+	<modules>
+		<module>spring-cloud-contract-producer</module>
+	</modules>
+
 	<groupId>com.baeldung.spring.cloud</groupId>
 	<artifactId>spring-cloud-contract</artifactId>
+	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-cloud-contract</name>
 	<description>Demo project for Spring Boot</description>
